@@ -1,0 +1,1 @@
+export { default as FavoriteHomes } from './favorite-homes'

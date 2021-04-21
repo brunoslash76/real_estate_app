@@ -1,0 +1,26 @@
+@import '../../styles/colors.scss';
+
+.wrapper {
+    width: 100%;
+    padding: 24px 48px;
+    background-color: $darkBlue;
+    color: $tan;
+    box-shadow: 0px 0px 4px 2px $darkBlueShadow;
+    height: 65px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    nav {
+        width: 100%;
+        max-width: 800px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                list-style: none;
+            }
+        }
+    }
+}

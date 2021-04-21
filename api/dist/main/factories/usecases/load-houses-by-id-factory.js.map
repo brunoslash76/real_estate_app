@@ -1,0 +1,1 @@
+{"version":3,"file":"load-houses-by-id-factory.js","sourceRoot":"","sources":["../../../../src/main/factories/usecases/load-houses-by-id-factory.ts"],"names":[],"mappings":";;;AAAA,mCAAuD;AAEvD,8CAAkD;AAE3C,MAAM,2BAA2B,GAAG,GAAmB,EAAE;IAC9D,MAAM,oBAAoB,GAAG,IAAI,+BAA0B,EAAE,CAAA;IAC7D,OAAO,IAAI,2BAAgB,CAAC,oBAAoB,CAAC,CAAA;AACnD,CAAC,CAAA;AAHY,QAAA,2BAA2B,+BAGvC"}

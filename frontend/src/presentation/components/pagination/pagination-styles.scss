@@ -1,0 +1,27 @@
+@import '../../styles/colors.scss';
+
+.wrapper {
+    margin-top: 40px;
+    padding: 24px;
+    background-color: $darkBlue;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px $darkBlueShadow;
+
+    footer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: $gold;
+
+        & > span {
+            margin-right: 16px;
+        }
+
+        button {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            margin: 16px;
+        }
+    }
+}

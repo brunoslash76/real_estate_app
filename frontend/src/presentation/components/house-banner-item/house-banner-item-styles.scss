@@ -1,0 +1,29 @@
+@import '../../styles/colors.scss';
+
+.anouncementWrapper {
+    margin-right: 20px;
+    background-color: $disabled;
+    cursor: pointer;
+    width: 100%;
+    max-width: 131px;
+    flex: 1;
+    & > img {
+        width: 100%;
+    }
+
+    .anouncementInfo {
+        padding: 8px 16px;
+    }
+}
+
+.anouncementWrapper:last-child {
+    margin: 0;
+}
+
+.shadowBlue {
+    box-shadow: 0px 1px 3px 2px $darkBlue;
+}
+
+.shadowGold {
+    box-shadow: 0px 1px 3px 2px $darkTan;
+}

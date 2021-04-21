@@ -1,0 +1,1 @@
+{"version":3,"file":"load-most-visited-houses-factory.js","sourceRoot":"","sources":["../../../../src/main/factories/usecases/load-most-visited-houses-factory.ts"],"names":[],"mappings":";;;AAAA,mCAAuD;AAEvD,8CAAyD;AAElD,MAAM,2BAA2B,GAAG,GAA0B,EAAE;IACrE,MAAM,qBAAqB,GAAG,IAAI,+BAA0B,EAAE,CAAA;IAC9D,OAAO,IAAI,kCAAuB,CAAC,qBAAqB,CAAC,CAAA;AAC3D,CAAC,CAAA;AAHY,QAAA,2BAA2B,+BAGvC"}

@@ -1,0 +1,25 @@
+.mainPhotos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    .coverPhoto {
+        margin-bottom: 12px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .albumSection {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .morePhotos {
+            width: 48%;
+            margin-bottom: 12px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@import '../../styles/colors.scss';
+
+.wrapper {
+    
+    margin-top: 56px;
+    padding: 24px 24px 56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 3px;
+    overflow-x: auto;
+
+    .headerGold {
+        color: $tan;
+    }
+
+    .headerBlue {
+        color: $darkBlue
+    }
+
+    h2 {
+        margin-bottom: 24px;
+        font-size: 20px;
+        color: $darkBlue;
+        font-weight: 700;
+    }
+
+    .annoucementContainer {
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 16px 8px;
+    }
+}

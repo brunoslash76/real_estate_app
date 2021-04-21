@@ -1,0 +1,7 @@
+export * from './load-houses-repository'
+export * from './load-house-by-id-repository'
+export * from './load-houses-by-city-repository'
+export * from './load-houses-by-neighborhood-repository'
+export * from './load-houses-by-zipcode-repository'
+export * from './update-most-visited-house-repository'
+export * from './load-most-visited-houses-repository'

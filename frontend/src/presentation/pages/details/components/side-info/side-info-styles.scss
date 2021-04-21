@@ -1,0 +1,63 @@
+@import '../../../../styles/colors.scss';
+
+.wrapper {
+    height: fit-content;
+    padding: 24px;
+    width: 30%;
+    border: 1px solid $tan;
+    border-radius: 3px;
+    background-color: $darkBlue;
+    color: $tan;
+
+    .callToAction {
+        display: flex;
+        & > button {
+            height: 42px;
+            padding: 0;
+            background-color: transparent;
+            border-radius: 50%;
+            width: 53px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 16px;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 18px;
+
+        padding-bottom: 8px;
+    }
+
+    .infoSection {
+        border-top: 1px solid;
+        padding: 8px 0;
+        margin-bottom: 24px;
+        p {
+            line-height: 22px;
+            font-weight: 700;
+            color: $tan;
+            span {
+                margin-left: 8px;
+            }
+        }
+    }
+
+    .bedsAndBaths {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .availabilityContainer {
+        display: flex;
+        align-items: center;
+    }
+}

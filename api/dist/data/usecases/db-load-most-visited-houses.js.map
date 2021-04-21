@@ -1,0 +1,1 @@
+{"version":3,"file":"db-load-most-visited-houses.js","sourceRoot":"","sources":["../../../src/data/usecases/db-load-most-visited-houses.ts"],"names":[],"mappings":";;;AAGA,MAAa,uBAAuB;IAEhC,YAA6B,8BAA+D;QAA/D,mCAA8B,GAA9B,8BAA8B,CAAiC;IAAG,CAAC;IAEhG,KAAK,CAAC,eAAe;QACjB,OAAO,MAAM,IAAI,CAAC,8BAA8B,CAAC,eAAe,EAAE,CAAA;IACtE,CAAC;CACJ;AAPD,0DAOC"}

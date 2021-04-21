@@ -1,0 +1,79 @@
+@import '../../../../styles/colors.scss';
+
+.itemWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 16px;
+    color: $tan;
+    border: 1px solid $tan;
+    margin-bottom: 32px;
+    border-radius: 3px;
+    cursor: pointer;
+    p {
+        color: $gold;
+    }
+
+    .mobileWrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex: 2;
+    }
+
+    .mainPhoto {
+        flex: 1;
+        &>img {
+            margin-bottom: 16px;
+            height: 100px;
+        }
+
+        p {
+            width: 150px;
+            text-align: right;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    .info{
+        flex:1;
+        & > p {
+            margin-bottom: 8px;
+            & > span {
+                margin-right: 24px;
+            }
+        }
+    }
+    .morePhotos{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        &>img {
+            height: 50px;
+            margin-left: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .itemWrapper {
+        flex-direction: column;
+        .mobileWrapper {
+            display: flex;
+            flex-direction: row;
+        }
+        .morePhotos {
+            justify-content: space-between;
+            margin-top: 16px;
+            flex: 2;
+            & > img {
+                box-shadow: 0px 0px 1px 2px $gold;
+                height: 70px;
+                margin-left: 8px;
+            }
+            & > img:first-child {
+                margin: 0;
+            }
+        }
+    }
+}
